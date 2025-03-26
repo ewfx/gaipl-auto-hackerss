@@ -1,0 +1,81 @@
+{
+    "systemPerformanceData": {
+      "labels": ["January", "February", "March", "April", "May", "June", "July"],
+      "datasets": [
+        {
+          "label": "System Performance",
+          "backgroundColor": "rgba(75,192,192,1)",
+          "borderColor": "rgba(0,0,0,1)",
+          "borderWidth": 2,
+          "data": [65, 59, 80, 81, 56, 55, 40],
+          "summary": "Monthly system performance metrics.",
+          "description": "This dataset represents the performance of the system over the first seven months of the year, showing fluctuations in performance metrics.",
+          "filterCriteria": "month, performance",
+          "prompt": "Show the system performance metrics for the first seven months."
+        }
+      ]
+    },
+    "incidentData": {
+      "labels": ["January", "February", "March", "April", "May", "June", "July"],
+      "datasets": [
+        {
+          "label": "Incidents",
+          "backgroundColor": "rgba(255,99,132,1)",
+          "borderColor": "rgba(0,0,0,1)",
+          "borderWidth": 2,
+          "data": [75, 69, 90, 91, 66, 65, 50],
+          "summary": "Monthly incident count.",
+          "description": "This dataset shows the number of incidents reported each month, indicating trends and potential areas of concern.",
+          "filterCriteria": "month, incidents",
+          "prompt": "Show the incident count for each month."
+        }
+      ]
+    },
+    "incidentTrendsData": {
+      "labels": ["January", "February", "March", "April", "May", "June", "July"],
+      "datasets": [
+        {
+          "label": "Incident Trends",
+          "backgroundColor": "rgba(54,162,235,0.2)",
+          "borderColor": "rgba(54,162,235,1)",
+          "borderWidth": 1,
+          "data": [10, 20, 30, 40, 50, 60, 70],
+          "summary": "Monthly incident trends.",
+          "description": "This dataset highlights the trends in incidents over the first seven months of the year, showing an increasing trend in incident occurrences.",
+          "filterCriteria": "month, trends",
+          "prompt": "Show the trends in incidents for the first seven months."
+        }
+      ]
+    },
+    "systemUptimeData": {
+      "labels": ["January", "February", "March", "April", "May", "June", "July"],
+      "datasets": [
+        {
+          "label": "System Uptime (%)",
+          "backgroundColor": "rgba(75,192,192,0.2)",
+          "borderColor": "rgba(75,192,192,1)",
+          "borderWidth": 1,
+          "data": [85.9, 86.8, 63.7, 89.9, 45.8, 75.9, 99.7],
+          "summary": "Monthly system uptime percentage.",
+          "description": "This dataset shows the system uptime percentage for each month, indicating the reliability and availability of the system.",
+          "filterCriteria": "month, uptime",
+          "prompt": "Show the system uptime percentage for each month."
+        }
+      ]
+    },
+    "userActivityData": {
+      "labels": ["Active", "Inactive"],
+      "datasets": [
+        {
+          "label": "User Activity",
+          "backgroundColor": ["#FF6384", "#36A2EB"],
+          "hoverBackgroundColor": ["#FF6384", "#36A2EB"],
+          "data": [300, 50],
+          "summary": "User activity status.",
+          "description": "This dataset represents the number of active and inactive users, providing insights into user engagement.",
+          "filterCriteria": "status, activity",
+          "prompt": "Show the user activity status."
+        }
+      ]
+    }
+  }
