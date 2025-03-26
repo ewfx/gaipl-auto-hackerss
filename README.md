@@ -65,21 +65,21 @@ The platform leverages MCP Servers to enable LLMs to perform specific actions an
 
 🖼️ Screenshots:
 ### Dashboard
-![image](https://github.com/user-attachments/assets/48f1a89f-fb2c-43ea-b3ce-9c2c0d321a43)
+![image](https://github.com/user-attachments/assets/f7bd1d17-37d5-43eb-9eb2-d4ca10913d8f)
 ### SlideBar- Menu Options / Navigations
 ![image](https://github.com/user-attachments/assets/1c5a0c40-2146-40bb-9ad4-420448a6c6c0)
 ### Monitoring
 ![image](https://github.com/user-attachments/assets/f736db0a-e07f-47b6-8042-5043cc924f2c)
 ### Incident Management
 ![image](https://github.com/user-attachments/assets/1a121554-7a40-464c-8f6a-ac68a31e55da)
+### Chat Bot (Incident Troubleshooting)
+![image](https://github.com/user-attachments/assets/f53ceb2f-32d9-4a21-9d29-4427231f7cb1)
 ### Config / Change Management
 ![image](https://github.com/user-attachments/assets/69bb6e6b-7ff9-4359-9ccc-ffe127bbbb3b)
 ### Reporting
 ![image](https://github.com/user-attachments/assets/aafc9fca-380c-4840-9d9e-8b595cb7bbd1)
 ### Automation
 ![image](https://github.com/user-attachments/assets/f5c198fc-f657-4252-8ba7-6b64ae11c8c5)
-### Chat Bot (Incident Troubleshooting)
-![image](https://github.com/user-attachments/assets/f53ceb2f-32d9-4a21-9d29-4427231f7cb1)
 
 ## 💡 Inspiration
 We were inspired to create this project after witnessing the challenges faced by platform teams and the fragmented nature of information sources during troubleshooting. Our goal was to create a centralized platform to streamline incident management and provide a unified view of critical system data.
