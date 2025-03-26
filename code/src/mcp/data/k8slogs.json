@@ -1,0 +1,92 @@
+{
+    "apiVersion": "v1",
+    "items": [
+      {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "metadata": {
+          "name": "nginx-deployment-6d4cf56db6-bb6lg",
+          "namespace": "default",
+          "uid": "b1cb1829-4626-4b26-9d7a-882f3a5b9c89",
+          "creationTimestamp": "2023-03-25T11:01:45Z",
+          "labels": {
+            "app": "nginx",
+            "pod-template-hash": "6d4cf56db6"
+          }
+        },
+        "status": {
+          "phase": "Running",
+          "conditions": [
+            {
+              "type": "Initialized",
+              "status": "True"
+            },
+            {
+              "type": "Ready",
+              "status": "True"
+            },
+            {
+              "type": "ContainersReady",
+              "status": "True"
+            },
+            {
+              "type": "PodScheduled",
+              "status": "True"
+            }
+          ],
+          "hostIP": "192.168.1.10",
+          "podIP": "10.244.0.5"
+        },
+        "spec": {
+          "containers": [
+            {
+              "name": "nginx",
+              "image": "nginx:1.21.6",
+              "resources": {}
+            }
+          ]
+        }
+      },
+      {
+        "apiVersion": "v1",
+        "kind": "Pod",
+        "metadata": {
+          "name": "frontend-deployment-6d4cf56db6-pod123",
+          "namespace": "default",
+          "uid": "z9c92bd6-06ab-4421-babc-c3bc09fd147d",
+          "creationTimestamp": "2023-03-25T11:15:30Z",
+          "labels": {
+            "app": "frontend",
+            "pod-template-hash": "7c5d6f8g7"
+          }
+        },
+        "status": {
+          "phase": "Pending",
+          "conditions": [
+            {
+              "type": "PodScheduled",
+              "status": "False",
+              "reason": "Unschedulable",
+              "message": "0/3 nodes available"
+            }
+          ],
+          "hostIP": null,
+          "podIP": null
+        },
+        "spec": {
+          "containers": [
+            {
+              "name": "frontend",
+              "image": "frontend-app:2.0",
+              "resources": {}
+            }
+          ]
+        }
+      }
+    ],
+    "kind": "List",
+    "metadata": {
+      "resourceVersion": "123456",
+      "selfLink": "/api/v1/namespaces/default/pods"
+    }
+  }

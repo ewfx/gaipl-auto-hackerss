@@ -1,0 +1,146 @@
+{
+    "tasks": [
+      {
+        "id": 1,
+        "name": "Backup Database",
+        "schedule": "Daily at 2 AM",
+        "status": "Active",
+        "info": "Backup of main database",
+        "completion": 75,
+        "summary": "Daily backup of the main database to ensure data safety.",
+        "description": "This task performs a daily backup of the main database at 2 AM to ensure that all data is safely stored and can be restored in case of any data loss or corruption."
+      },
+      {
+        "id": 2,
+        "name": "Generate Reports",
+        "schedule": "Weekly on Monday",
+        "status": "Active",
+        "info": "Generate weekly sales reports",
+        "completion": 50,
+        "summary": "Weekly generation of sales reports.",
+        "description": "This task generates sales reports every Monday to provide insights into the weekly sales performance and help in making informed business decisions."
+      },
+      {
+        "id": 3,
+        "name": "System Update",
+        "schedule": "Monthly on 1st",
+        "status": "Completed",
+        "info": "Update system software",
+        "completion": 100,
+        "summary": "Monthly update of system software.",
+        "description": "This task updates the system software on the 1st of every month to ensure that the system is running the latest version with all the latest features and security patches."
+      },
+      {
+        "id": 4,
+        "name": "Data Sync",
+        "schedule": "Hourly",
+        "status": "In Progress",
+        "info": "Sync data between servers",
+        "completion": 30,
+        "summary": "Hourly synchronization of data between servers.",
+        "description": "This task synchronizes data between servers every hour to ensure that all servers have the latest data and are in sync with each other."
+      },
+      {
+        "id": 5,
+        "name": "Security Scan",
+        "schedule": "Daily at 3 AM",
+        "status": "Scheduled",
+        "info": "Perform security scan",
+        "completion": 0,
+        "summary": "Daily security scan to identify vulnerabilities.",
+        "description": "This task performs a security scan every day at 3 AM to identify any vulnerabilities or security issues in the system and ensure that the system is secure."
+      },
+      {
+        "id": 6,
+        "name": "Cleanup Logs",
+        "schedule": "Weekly on Sunday",
+        "status": "Cancelled",
+        "info": "Cleanup old logs",
+        "completion": 0,
+        "summary": "Weekly cleanup of old logs.",
+        "description": "This task cleans up old logs every Sunday to free up disk space and ensure that only relevant logs are retained for future reference."
+      },
+      {
+        "id": 7,
+        "name": "Deploy Application",
+        "schedule": "On Demand",
+        "status": "Error",
+        "info": "Deploy new application version",
+        "completion": 0,
+        "summary": "On-demand deployment of new application version.",
+        "description": "This task deploys a new version of the application on demand to ensure that the latest features and updates are available to users."
+      }
+    ],
+    "workflows": [
+      {
+        "id": 1,
+        "name": "Onboarding Workflow",
+        "status": "Active",
+        "description": "Automate employee onboarding process",
+        "summary": "Automated workflow for onboarding new employees.",
+        "details": "This workflow automates the process of onboarding new employees, including setting up accounts, providing access to necessary systems, and completing required documentation."
+      },
+      {
+        "id": 2,
+        "name": "Offboarding Workflow",
+        "status": "Completed",
+        "description": "Automate employee offboarding process",
+        "summary": "Automated workflow for offboarding employees.",
+        "details": "This workflow automates the process of offboarding employees, including revoking access to systems, collecting company assets, and completing exit documentation."
+      }
+    ],
+    "integrations": [
+      {
+        "id": 1,
+        "name": "Salesforce Integration",
+        "status": "Active",
+        "description": "Integrate with Salesforce CRM",
+        "summary": "Integration with Salesforce CRM for seamless data exchange.",
+        "details": "This integration connects the system with Salesforce CRM to enable seamless data exchange and ensure that customer data is always up-to-date."
+      },
+      {
+        "id": 2,
+        "name": "Slack Integration",
+        "status": "Error",
+        "description": "Integrate with Slack for notifications",
+        "summary": "Integration with Slack for real-time notifications.",
+        "details": "This integration connects the system with Slack to enable real-time notifications and alerts for critical issues and updates."
+      }
+    ],
+    "notifications": [
+      {
+        "id": 1,
+        "name": "Email Alerts",
+        "status": "Active",
+        "description": "Send email alerts for critical issues",
+        "summary": "Email alerts for critical issues.",
+        "details": "This notification sends email alerts for critical issues to ensure that relevant stakeholders are informed and can take necessary actions."
+      },
+      {
+        "id": 2,
+        "name": "SMS Alerts",
+        "status": "Scheduled",
+        "description": "Send SMS alerts for high priority issues",
+        "summary": "SMS alerts for high priority issues.",
+        "details": "This notification sends SMS alerts for high priority issues to ensure that relevant stakeholders are informed and can take necessary actions."
+      }
+    ],
+    "reports": [
+      {
+        "id": 1,
+        "name": "Monthly Sales Report",
+        "status": "Completed",
+        "description": "Generate monthly sales report",
+        "summary": "Monthly report on sales performance.",
+        "details": "This report provides a detailed analysis of the sales performance for the month, including key metrics and insights to help in making informed business decisions."
+      },
+      {
+        "id": 2,
+        "name": "Weekly Performance Report",
+        "status": "In Progress",
+        "description": "Generate weekly performance report",
+        "summary": "Weekly report on performance metrics.",
+        "details": "This report provides a detailed analysis of the performance metrics for the week, including key metrics and insights to help in making informed business decisions."
+      }
+    ]
+  }

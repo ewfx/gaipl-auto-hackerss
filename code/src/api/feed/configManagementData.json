@@ -1,0 +1,180 @@
+{
+  "configurations": [
+    {
+      "id": 1,
+      "name": "Database Config",
+      "version": "v1.0",
+      "status": "Active",
+      "createdBy": "admin",
+      "createdAt": "2025-01-01",
+      "description": "Configuration for the main database"
+    },
+    {
+      "id": 2,
+      "name": "API Config",
+      "version": "v1.2",
+      "status": "Active",
+      "createdBy": "admin",
+      "createdAt": "2025-01-15",
+      "description": "Configuration for the API endpoints"
+    },
+    {
+      "id": 3,
+      "name": "Web Server Config",
+      "version": "v2.0",
+      "status": "Completed",
+      "createdBy": "admin",
+      "createdAt": "2025-02-01",
+      "description": "Configuration for the web server"
+    },
+    {
+      "id": 4,
+      "name": "Load Balancer Config",
+      "version": "v1.1",
+      "status": "In Progress",
+      "createdBy": "admin",
+      "createdAt": "2025-02-15",
+      "description": "Configuration for the load balancer"
+    },
+    {
+      "id": 5,
+      "name": "Cache Config",
+      "version": "v1.0",
+      "status": "Scheduled",
+      "createdBy": "admin",
+      "createdAt": "2025-03-01",
+      "description": "Configuration for the cache system"
+    },
+    {
+      "id": 6,
+      "name": "Firewall Config",
+      "version": "v1.3",
+      "status": "Cancelled",
+      "createdBy": "admin",
+      "createdAt": "2025-03-15",
+      "description": "Configuration for the firewall"
+    },
+    {
+      "id": 7,
+      "name": "DNS Config",
+      "version": "v1.0",
+      "status": "Error",
+      "createdBy": "admin",
+      "createdAt": "2025-04-01",
+      "description": "Configuration for the DNS server"
+    }
+  ],
+  "changeRequests": [
+    {
+      "id": 1,
+      "name": "Update Database Config",
+      "status": "Pending",
+      "requestedBy": "user1",
+      "requestedAt": "2025-01-05",
+      "description": "Request to update the database configuration"
+    },
+    {
+      "id": 2,
+      "name": "Upgrade API Version",
+      "status": "Approved",
+      "requestedBy": "user2",
+      "requestedAt": "2025-01-20",
+      "description": "Request to upgrade the API version"
+    },
+    {
+      "id": 3,
+      "name": "Modify Firewall Rules",
+      "status": "In Progress",
+      "requestedBy": "user3",
+      "requestedAt": "2025-02-05",
+      "description": "Request to modify the firewall rules"
+    },
+    {
+      "id": 4,
+      "name": "Add New Cache Layer",
+      "status": "Completed",
+      "requestedBy": "user4",
+      "requestedAt": "2025-02-20",
+      "description": "Request to add a new cache layer"
+    },
+    {
+      "id": 5,
+      "name": "Remove Deprecated APIs",
+      "status": "Cancelled",
+      "requestedBy": "user5",
+      "requestedAt": "2025-03-05",
+      "description": "Request to remove deprecated APIs"
+    }
+  ],
+  "complianceRecords": [
+    {
+      "id": 1,
+      "name": "Database Compliance",
+      "status": "Compliant",
+      "checkedBy": "auditor1",
+      "checkedAt": "2025-01-10",
+      "description": "Compliance check for the database"
+    },
+    {
+      "id": 2,
+      "name": "API Compliance",
+      "status": "Non-Compliant",
+      "checkedBy": "auditor2",
+      "checkedAt": "2025-01-25",
+      "description": "Compliance check for the API"
+    },
+    {
+      "id": 3,
+      "name": "Web Server Compliance",
+      "status": "Compliant",
+      "checkedBy": "auditor3",
+      "checkedAt": "2025-02-10",
+      "description": "Compliance check for the web server"
+    },
+    {
+      "id": 4,
+      "name": "Load Balancer Compliance",
+      "status": "Non-Compliant",
+      "checkedBy": "auditor4",
+      "checkedAt": "2025-02-25",
+      "description": "Compliance check for the load balancer"
+    }
+  ],
+  "deploymentHistory": [
+    {
+      "id": 1,
+      "name": "Database Deployment",
+      "date": "2025-03-01",
+      "deployedBy": "devops1",
+      "description": "Deployment of the database configuration"
+    },
+    {
+      "id": 2,
+      "name": "API Deployment",
+      "date": "2025-03-02",
+      "deployedBy": "devops2",
+      "description": "Deployment of the API configuration"
+    },
+    {
+      "id": 3,
+      "name": "Web Server Deployment",
+      "date": "2025-03-03",
+      "deployedBy": "devops3",
+      "description": "Deployment of the web server configuration"
+    },
+    {
+      "id": 4,
+      "name": "Load Balancer Deployment",
+      "date": "2025-03-04",
+      "deployedBy": "devops4",
+      "description": "Deployment of the load balancer configuration"
+    },
+    {
+      "id": 5,
+      "name": "Cache Deployment",
+      "date": "2025-03-05",
+      "deployedBy": "devops5",
+      "description": "Deployment of the cache configuration"
+    }
+  ]
+}

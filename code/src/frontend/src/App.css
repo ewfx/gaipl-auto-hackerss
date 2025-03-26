@@ -1,0 +1,75 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background: linear-gradient(to right, #a1c4fd, #c2e9fb); /* Lighter gradient background */
+  margin: 0;
+  padding: 0;
+  color: #333; /* Darker text color for better contrast */
+}
+
+.drawer {
+  width: 240px;
+  flex-shrink: 0;
+}
+
+.drawerPaper {
+  width: 240px;
+}
+
+.content,
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.card {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.table-container {
+  margin-top: 20px;
+}
+
+.dialog-content,
+.dialog-actions {
+  padding: 20px;
+}
+
+.header {
+  background-color: #a1c4fd; /* Matching background color for the header */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+  font-weight: bold;
+  color: #fff; /* White text color for better contrast */
+}
+
+.header-caption {
+  color: #f0f0f0; /* Light gray color for the caption */
+  font-style: italic;
+}
+
+.main-content.collapsed {
+  margin-left: 0;
+}
+
+.main-content.expanded {
+  margin-left: 240px; /* Width of the sidebar */
+}
+
+.selected {
+  background-color: #2a2a40 !important; /* Highlight color */
+}
+
+.selected:hover {
+  background-color: #2a2a40 !important; /* Same highlight color on hover */
+}
