@@ -43,7 +43,7 @@ This is an Integrated Platform Management Portal. The Platform is a one stop sol
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+We were inspired to create this project after witnessing the challenges faced by platform teams and the fragmented nature of information sources during troubleshooting. Our goal was to create a centralized platform to streamline incident management and provide a unified view of critical system data.
 
 ## ⚙️ What It Does
 This is an Integrated Platform Management Portal. The Platform is a one stop solution for any Platform team to Manage their Platform. The portal provides below different functionalities for the platform user:
@@ -77,7 +77,7 @@ The Frontend is based on React. The backend is built using Python FastAPI. It us
 ## 🏃 How to Run
 1. Clone the repository  
    ```sh
-   git clone https://github.com/your-repo.git
+   git clone https://github.com/ewfx/gaipl-auto-hackerss.git
    ```
 2. Switch to /api folder
 3. Install dependencies  
@@ -118,7 +118,7 @@ The Frontend is based on React. The backend is built using Python FastAPI. It us
 
 ## 👥 Team
 - **Sandesh Kumar G** - [GitHub](#) | [LinkedIn](#)
-- **Kishor S D** - [GitHub](#) | [LinkedIn](#)
+- **Kishor Kumar S D** - [GitHub](#) | [LinkedIn](#)
 - **Muskan** - [GitHub](#) | [LinkedIn](#)
 - **Revanth T** - [GitHub](#) | [LinkedIn](#)
 - **Nagarajan Srinivasan** - [GitHub](#) | [LinkedIn](#)
